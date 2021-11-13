@@ -15,7 +15,8 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sembako Lite"
+            android:fontFamily="sans-serif-black"
+            android:text="MAIN MENU"
             android:textAlignment="center"
             android:textSize="34sp" />
 
@@ -23,24 +24,19 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BERAS" />
+            android:text="SEMBAKO"
+            app:icon="@drawable/sembako"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MINYAK" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TELUR" />
-
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="BULANAN"
+            app:icon="@drawable/bulanan"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

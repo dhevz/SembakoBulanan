@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SembakoBulanan">
         <activity
+            android:name=".MenuSembako"
+            android:exported="true" />
+        <activity
+            android:name=".MenuBulanan"
+            android:exported="true" />
+        <activity
+            android:name=".Bulanan"
+            android:exported="true" />
+        <activity
+            android:name=".bulanan"
+            android:exported="true" />
+        <activity
             android:name=".Telur"
             android:exported="true" />
         <activity

@@ -4,37 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainMenuCicilan">
-
+    tools:context=".MenuBulanan">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CICILAN"
+            android:fontFamily="sans-serif-black"
+            android:text="BULANAN"
             android:textAlignment="center"
             android:textSize="34sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnBeras"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LISTRIK" />
+            android:text="BERAS"
+            app:icon="@drawable/beras"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnTelur"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="AIR" />
+            android:text="TELUR"
+            app:icon="@drawable/telur"
+            app:iconSize="65dp"
+            app:iconTint="@color/black" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btnGula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="INTERNET" />
+            android:text="GULA"
+            app:icon="@drawable/gula"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
