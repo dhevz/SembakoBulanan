@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".MenuSembako">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SEMBAKO"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="263dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <Button
+            android:id="@+id/btnBeras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BERAS"
+            app:icon="@drawable/beras"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/btnTelur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TELUR"
+            app:icon="@drawable/telur"
+            app:iconSize="65dp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/btnGula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GULA"
+            app:icon="@drawable/gula"
+            app:iconSize="60dp"
+            app:iconTint="@color/black" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
 </androidx.constraintlayout.widget.ConstraintLayout>

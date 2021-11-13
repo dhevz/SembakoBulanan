@@ -5,46 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuBulanan">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:text="BULANAN"
-            android:textAlignment="center"
-            android:textSize="34sp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="BULANAN"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="421dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <Button
-            android:id="@+id/btnBeras"
+            android:id="@+id/btnListrik"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BERAS"
-            app:icon="@drawable/beras"
+            android:text="LISTRIK"
+            app:icon="@drawable/listrik"
             app:iconSize="60dp"
             app:iconTint="@color/black" />
 
         <Button
-            android:id="@+id/btnTelur"
+            android:id="@+id/btnAir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TELUR"
-            app:icon="@drawable/telur"
+            android:text="AIR"
+            app:icon="@drawable/air"
             app:iconSize="65dp"
             app:iconTint="@color/black" />
 
         <Button
-            android:id="@+id/btnGula"
+            android:id="@+id/btnInternet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GULA"
-            app:icon="@drawable/gula"
-            app:iconSize="60dp"
+            android:text="Internet"
+            app:icon="@drawable/internet"
+            app:iconSize="65dp"
             app:iconTint="@color/black" />
 
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
 </androidx.constraintlayout.widget.ConstraintLayout>
