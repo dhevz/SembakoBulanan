@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161815393145",
+    "firebase_url": "https://sembakobulanan-5d420-default-rtdb.firebaseio.com",
+    "project_id": "sembakobulanan-5d420",
+    "storage_bucket": "sembakobulanan-5d420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161815393145:android:c34201fc1e1ddb6f12f5a8",
+        "android_client_info": {
+          "package_name": "com.example.sembakobulanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161815393145-q4142oag4iq2r1hn3v9kqnj1pe89runj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAux1ladGicubHbWRYepJ0sSAaurPcB4OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161815393145-q4142oag4iq2r1hn3v9kqnj1pe89runj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
